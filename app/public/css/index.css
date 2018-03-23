@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+h1{
+    width:100%;
+    text-align: center;
+    margin: 30px auto;
+}
+main{
+    width: 50%;
+    margin: 0 auto;
+}
+.center{
+  width: 50%;
+  margin: 0 auto;
+}
+.login{
+    width: 50%;
+    margin: 20px  auto;
+}
+.give{
+    display: block;
+    /* width: 50%; */
+    margin: 10px auto;
+}
+.submit{
+  display: block;
+  width: 30%;
+  margin: 10px auto;
+}
+/* 首页 */
+.el{
+    width: 100%;
+  }
+  header{
+    width: 100%;
+  }
+  .headerH{
+    width: 20%;
+    margin: 0 auto;
+    margin-top:20px;
+  }
+  main{
+    overflow: hidden;
+  }
+  .addTd{
+    display: block;
+    color: #000;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: aquamarine;
+  }
+   table {
+     display: table; 
+     width: 80%; 
+     border-collapse: collapse;
+     margin: 10px  auto;
+     }
+   tr {
+     display: table-row;
+      height: 30px;
+      }
+  th {
+    display: table-cell;
+    font-weight: bold;
+    border: 1px solid gray;
+    text-align: center;
+    vertical-align: middle;
+    background-color:#E5E5E5;
+    }
+  td {
+    display: table-cell;
+     border: 1px solid gray;
+      text-align: center;
+      vertical-align: middle;
+      
+      }
+      button{
+        border:none;
+        background: #ffffff;
+        font-size: 15px;
+      }
+      .search{
+        border:solid 1px blue;
+        padding:1px 6px;
+        font-size:14px;
+        border-radius:5px;
+      }
