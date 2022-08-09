@@ -14,19 +14,19 @@ module.exports = appInfo => {
   config.middleware = ['ueditor'];
 
   config.global = {
-    appId: process.env.APP_ID || 'AP328801193931309066',
-    accessToken: process.env.ACCESS_TOKEN || '9b804b7f609e48d789d76f0effbe4ffe',
-    apiUrl: process.env.API_URL || 'http://api.bto-dev.utoper.com',
-    accountUrl: process.env.ACCOUNT_URL || 'http://account.bto-dev.utoper.com',
+    appId: process.env.APP_ID || 'xxx',
+    accessToken: process.env.ACCESS_TOKEN || 'xxx',
+    apiUrl: process.env.API_URL || 'xxx',
+    accountUrl: process.env.ACCOUNT_URL || 'xxx',
     staticUrl: process.env.STATIC_URL || '/static',
     staticVersion: new Date().getTime(),
-    fileUrl: process.env.FILE_URL || 'http://files.bto-dev.utoper.com',
-    reportUrl: process.env.REPORT_URL || 'http://gene-report.bto-dev.utoper.com/',
+    fileUrl: process.env.FILE_URL || 'xxx',
+    reportUrl: process.env.REPORT_URL || 'xxx',
   };
   config.oss = {
-      accessKeyId: process.env.OSS_ID || 'LTAI3cuPYRRhFYUk',
-      accessSecret: process.env.OSS_Secret || 'jeFtIsxBjqX3ZL1Ojy2RikRk97zVQc',
-      endpoint: process.env.OSS_endpoint || 'oss-cn-hangzhou.aliyuncs.com ',
+      accessKeyId: process.env.OSS_ID || 'xxx
+      accessSecret: process.env.OSS_Secret || 'xxx',
+      endpoint: process.env.OSS_endpoint || 'xxx',
       bucket: process.env.OSS_BUCKET || 'yuanliting',
   };
   config.CLIENT_PORT = {
